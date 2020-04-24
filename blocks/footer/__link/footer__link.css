@@ -12,6 +12,15 @@
     margin: 0;
 }
 
+.footer__link {
+    transition: opacity 1s ease;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+
 @media screen and (max-width: 320px) {
     .footer__link {
         margin-bottom: 32px;
